@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Persian-khat-khati-02';
+    src: url('../fonts/Persian-khat-khati-02.eot');
+    src: url('../fonts/Persian-khat-khati-02.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Persian-khat-khati-02.woff2') format('woff2'),
+        url('../fonts/Persian-khat-khati-02.woff') format('woff'),
+        url('../fonts/Persian-khat-khati-02.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
