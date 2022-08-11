@@ -28,7 +28,7 @@ function App() {
         style={{ zIndex: "0" }}
       >
         <div className="row">
-          <div className="col-sm-12 col-lg d-flex justify-content-center justify-content-lg-end">
+          <div className="col-12 col-lg-6 d-flex justify-content-center">
             <img
               className="rounded-circle user-select-none w-50 "
               src={pic}
@@ -37,7 +37,7 @@ function App() {
             />
           </div>
 
-          <div className="col pt-5 text-light" style={{ maxWidth: 400 }}>
+          <div className="col-12 col-lg-6 pt-5 text-light">
             <h1 className="user-select-none text-center">امیرحسین جلالی منش</h1>
             <h3 className="user-select-none text-center">طراح سایت UI-UX</h3>
             <h3 className="user-select-none text-center">
