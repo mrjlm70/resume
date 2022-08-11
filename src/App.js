@@ -11,12 +11,12 @@ function App() {
         loop
         style={{
           position: "absolute",
-          width: "100%",
+          transform: "translate(-50%,-50%)",
           left: "50%",
           top: "50%",
+          width: "100%",
           height: "100%",
           objectFit: "cover",
-          transform: "translate(-50%,-50%)",
           zIndex: "-1",
         }}
       >
@@ -28,7 +28,7 @@ function App() {
         style={{ zIndex: "0" }}
       >
         <div className="row">
-          <div className="col-sm-12 col-lg d-flex justify-content-center justify-content-lg-end" >
+          <div className="col-sm-12 col-lg d-flex justify-content-center justify-content-lg-end">
             <img
               className="rounded-circle user-select-none w-50 "
               src={pic}
@@ -37,7 +37,7 @@ function App() {
             />
           </div>
 
-          <div className="col pt-5 text-light" style={{ width: 400 }}>
+          <div className="col pt-5 text-light" style={{ maxWidth: 400 }}>
             <h1 className="user-select-none text-center">امیرحسین جلالی منش</h1>
             <h3 className="user-select-none text-center">طراح سایت UI-UX</h3>
             <h3 className="user-select-none text-center">
