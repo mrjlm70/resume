@@ -1,15 +1,3 @@
-.App {
-  z-index: 0;
-  position:absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: antiquewhite;
-}
 
 h1{
   font-family: "Persian-khat-khati-02";
@@ -29,3 +17,4 @@ i:hover{
   transform: scale(1.5);
   color: royalblue
 }
+
